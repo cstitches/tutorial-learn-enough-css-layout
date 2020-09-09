@@ -3,17 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <title>Document</title>
+    <style>
+      #foo {
+        background: lightgray;
+      }
+      .bar {
+        background: lightblue;
+      }
+      .bar a {
+        color: green;
+      }
+    </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
     </ul>
     <h2>I'm an h2</h2>
-    <div><a href="#">I'm a link</a></div>
-    <div><a href="#">I'm a link</a></div>
-    <div><a href="#">I'm a link</a></div>
+    <div id="foo" class="bar"><a href="#">I'm a link</a></div>
+    <div class="bar"><a href="#">I'm a link</a></div>
+    <div class="bar"><a href="#">I'm a link</a></div>
   </body>
 </html>
